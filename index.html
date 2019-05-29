@@ -1,12 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eindopdracht UX</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+        integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>b&b</title>
 </head>
+
 <body>
+    <header>
+
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul>
+                <li class="dropdown"><a href="#" title="Nederlands">NL&nbsp;<i class="fas fa-angle-down"></i></a>
+                    <ul>
+                        <li class="dropcontent"><a href="#" title="Francais">FR</a>
+                        <li class="dropcontent"><a href="#" title="English">ENG</a>
+                    </ul>
+                </li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <nav>
+                <h1>B&B</h1>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Reservaties</a></li>
+                    <li><a href="#">Activiteiten</a></li>
+                    <input type="text" placeholder="zoeken...">&nbsp;<a href="#"><i class="fas fa-search"></i></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <section id="banner" class="container">
+                <h2>Welkom bij een bnb waarvan <br />ik de naam nog van moet verzinnen</h2>
+                <article>
+                    <h3>This is totally not a random text</h3>
+                    <p>Amet enim deserunt id cupidatat ad voluptate ipsum quis excepteur et aliquip et veniam.</p>
+                    <a href="#" class="cta">Reserveer nu&nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
+                </article>
+            </section>
+        </div>
+
+        <div class="container" id="rooms">
+            <h3>Bekijk onze kamers</h3>
+            <section>
+                <div class="roomcard">
+                    <div>
+                        <img src="images/room.png" alt="kamer1">
+                        <h4>Totally not a placeholder text!</h4>
+                        <div class="shadow"></div>
+                    </div>
+                    <p>Aute enim nisi et excepteur quis anim Lorem proident et aute fugiat. Aliqua voluptate cillum
+                        ipsum
+                        dolore nostrud deserunt. Pariatur reprehenderit elit exercitation ex dolor dolor deserunt culpa
+                        amet
+                        ea commodo sint pariatur ea.</p>
+                    <a href="#" class="cta">Lees meer&nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+                <div class="roomcard">
+                    <div>
+                        <img src="images/room2.jpg" alt="kamer1">
+                        <h4>Totally not a placeholder text!</h4>
+                        <div class="shadow"></div>
+                    </div>
+                    <p>Aute enim nisi et excepteur quis anim Lorem proident et aute fugiat. Aliqua voluptate cillum
+                        ipsum
+                        dolore nostrud deserunt. Pariatur reprehenderit elit exercitation ex dolor dolor deserunt culpa
+                        amet
+                        ea commodo sint pariatur ea.</p>
+                    <a href="#" class="cta">Lees meer&nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+                <div class="roomcard">
+                    <div>
+                        <img src="images/room3.jpg" alt="kamer1">
+                        <h4>Totally not a placeholder text!</h4>
+                        <div class="shadow"></div>
+                    </div>
+                    <p>Aute enim nisi et excepteur quis anim Lorem proident et aute fugiat. Aliqua voluptate cillum
+                        ipsum
+                        dolore nostrud deserunt. Pariatur reprehenderit elit exercitation ex dolor dolor deserunt culpa
+                        amet
+                        ea commodo sint pariatur ea.</p>
+                    <a href="#" class="cta">Lees meer&nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </section>
+        </div>
+
+        <div id="breakfast">
+            <div class="container">
+                <h3>Ontbijt</h3>
+                <section class="breakfastcard">
+                    <div>
+                        <img src="images/breakfast1.png" alt="breakfast-picture">
+                        <article>
+                            <h3>This is a subtitle</h3>
+                            <p>Anim commodo ullamco irure elit consequat proident. Quis sunt elit pariatur non amet.
+                                Consequat ad laborum quis incididunt ut aliqua mollit et occaecat reprehenderit ad
+                                aliqua ea
+                                aliqua.</p>
+                        </article>
+                    </div>
+                </section>
+                <section class="breakfastcard">
+                    <div>
+                        <img src="images/breakfast2.jpg" alt="breakfast-picture">
+                        <article>
+                            <h3>This is a subtitle</h3>
+                            <p>Anim commodo ullamco irure elit consequat proident. Quis sunt elit pariatur non amet.
+                                Consequat ad laborum quis incididunt ut aliqua mollit et occaecat reprehenderit ad
+                                aliqua ea
+                                aliqua.</p>
+                        </article>
+                    </div>
+                </section>
+                <section class="breakfastcard">
+                    <div>
+                        <img src="images/breakfast3.jpg" alt="breakfast-picture">
+                        <article>
+                            <h3>This is a subtitle</h3>
+                            <p>Anim commodo ullamco irure elit consequat proident. Quis sunt elit pariatur non amet.
+                                Consequat ad laborum quis incididunt ut aliqua mollit et occaecat reprehenderit ad
+                                aliqua ea
+                                aliqua.</p>
+                        </article>
+                    </div>
+                </section>
+                <section class="breakfastcard">
+                    <div>
+                        <img src="images/breakfast4.jpg" alt="breakfast-picture">
+                        <article>
+                            <h3>This is a subtitle</h3>
+                            <p>Anim commodo ullamco irure elit consequat proident. Quis sunt elit pariatur non amet.
+                                Consequat ad laborum quis incididunt ut aliqua mollit et occaecat reprehenderit ad
+                                aliqua ea
+                                aliqua.</p>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Reservaties</a></li>
+                    <li><a href="#">Activiteiten</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p>Join us</p>
+                <a href="#"><i class="fab fa-facebook-square"></i>&nbsp;Facebook</a>
+            </div>
+            <p>© b&b name 2019</p>
+        </footer>
+    </main>
 </body>
+
 </html>
