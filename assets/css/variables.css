@@ -1,26 +1,29 @@
-
 :root {
-  /**
-   * Colour palette
-   */
-  --c-primary: hsl(190, 100%, 40%);
+  /** Colours */
+  --c-blauw: hsla(178, 58%, 62%, 1);
+  --c-white: white;
+  --c-divide: #f7fafc;
+  --c-text: #525252;
+  --c-black: black;
+  --c-cta: #88C425;
 
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
+  /** Fonts */
+  --f-font:'Roboto', sans-serif;
 
-  /**
-   * Typography
-   */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+  /** Font-weights */
+  --f-regular: 400;
+  --f-regular: var(--f-reg);
+  --f-medium: 500;
+  --f-med: var(--f-medium);
+  --f-bold: 700;
+  --f-black: 900;
 
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+  /** Unit */
+  --unit: 8px;
+  --unit2: calc(2 * var(--unit));
+  --unit3: calc(3 * var(--unit));
+  --unit4: calc(4 * var(--unit));
+  --unit6: calc(2 * var(--unit3));
+  --unit8: calc(4 * var(--unit2));
+
 }
-
-

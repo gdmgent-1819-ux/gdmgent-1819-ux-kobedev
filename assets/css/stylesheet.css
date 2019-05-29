@@ -1,0 +1,94 @@
+#colors{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#colors div{
+    flex-basis: calc(100% / 6 - var(--unit));
+    min-height: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+sub{
+    font-size: 1rem;
+}
+
+#colors{
+    flex-wrap: wrap;
+}
+
+#colors p{
+    padding: 0;
+    color: black;
+}
+
+#colors div p:first-of-type{
+    margin-bottom: var(--unit);
+}
+
+#colors div:nth-of-type(1){
+    background-color:var(--c-cta);
+}
+
+#colors div:nth-of-type(2){
+    background-color:var(--c-blauw);
+}
+
+#colors div:nth-of-type(3){
+    background-color:var(--c-divide);
+}
+
+#colors div:nth-of-type(4){
+    background-color:var(--c-white);
+}
+
+#colors div:nth-of-type(5){
+    background-color:var(--c-text);
+}
+
+#colors div:nth-of-type(6){
+    background-color: rgba(0,0,0,.7);
+}
+
+#colors div:last-of-type p, #colors div:nth-of-type(5) p, sub{
+    color: var(--c-white);
+}
+
+#textexample{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3{
+    width: 100%;
+}
+
+#textexample p{
+    flex-basis: calc(50% - var(--unit3));
+    line-height:2.4rem;
+}
+
+#textexample p:last-of-type{
+    box-sizing: border-box;
+    padding: var(--unit2);
+    background: var(--c-divide);
+}
+
+.activitycard .cta{
+    margin-top: var(--unit2);
+}
+
+@media screen and (max-width:620px){
+    #colors div{
+        flex-basis: 100%;
+        margin-bottom: var(--unit);
+    }
+}
